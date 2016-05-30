@@ -3,9 +3,9 @@ var ListItem = React.createClass({
    render: function () {
        return (
            <li>
-                <h4>{this.props.itemvalue}</h4>
+                <h4>{this.props.text}</h4>
            </li>
-       )
+       );
    } 
 });
 
